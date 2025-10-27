@@ -9,10 +9,12 @@ using Talabat.APIs.Middelwares;
 using Talabat.Core.Entities;
 using Talabat.Core.Entities.Identity;
 using Talabat.Core.Repositories;
+using Talabat.Core.Services.Contract;
 using Talabat.Repository;
 using Talabat.Repository.Data;
 using Talabat.Repository.Identity;
 using Talabat.Repository.Identity.Config;
+using Talabat.Service;
 
 namespace Talabat.APIs
 {
@@ -52,10 +54,7 @@ namespace Talabat.APIs
 
             builder.Services.AddApplicationServices();
 
-            builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
-            {
-
-            }).AddEntityFrameworkStores<AppIdentityDbContext>();
+            builder.Services.AddIdentityServices(); //Security Method
             #endregion
 
             var app = builder.Build();
