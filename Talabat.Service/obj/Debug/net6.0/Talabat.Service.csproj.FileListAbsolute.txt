@@ -1,0 +1,31 @@
+D:\ASP.NET\.net route\08 Api\Ahmed Nasr\Session 01\Demo\Talabat.MyProject.Solution\Talabat.Service\bin\Debug\net6.0\Talabat.Service.deps.json
+D:\ASP.NET\.net route\08 Api\Ahmed Nasr\Session 01\Demo\Talabat.MyProject.Solution\Talabat.Service\bin\Debug\net6.0\Talabat.Service.dll
+D:\ASP.NET\.net route\08 Api\Ahmed Nasr\Session 01\Demo\Talabat.MyProject.Solution\Talabat.Service\bin\Debug\net6.0\Talabat.Service.pdb
+D:\ASP.NET\.net route\08 Api\Ahmed Nasr\Session 01\Demo\Talabat.MyProject.Solution\Talabat.Service\obj\Debug\net6.0\Talabat.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET\.net route\08 Api\Ahmed Nasr\Session 01\Demo\Talabat.MyProject.Solution\Talabat.Service\obj\Debug\net6.0\Talabat.Service.AssemblyInfoInputs.cache
+D:\ASP.NET\.net route\08 Api\Ahmed Nasr\Session 01\Demo\Talabat.MyProject.Solution\Talabat.Service\obj\Debug\net6.0\Talabat.Service.AssemblyInfo.cs
+D:\ASP.NET\.net route\08 Api\Ahmed Nasr\Session 01\Demo\Talabat.MyProject.Solution\Talabat.Service\obj\Debug\net6.0\Talabat.Service.csproj.CoreCompileInputs.cache
+D:\ASP.NET\.net route\08 Api\Ahmed Nasr\Session 01\Demo\Talabat.MyProject.Solution\Talabat.Service\obj\Debug\net6.0\Talabat.Service.dll
+D:\ASP.NET\.net route\08 Api\Ahmed Nasr\Session 01\Demo\Talabat.MyProject.Solution\Talabat.Service\obj\Debug\net6.0\refint\Talabat.Service.dll
+D:\ASP.NET\.net route\08 Api\Ahmed Nasr\Session 01\Demo\Talabat.MyProject.Solution\Talabat.Service\obj\Debug\net6.0\Talabat.Service.pdb
+D:\ASP.NET\.net route\08 Api\Ahmed Nasr\Session 01\Demo\Talabat.MyProject.Solution\Talabat.Service\obj\Debug\net6.0\ref\Talabat.Service.dll
+D:\ASP.NET\.net route\08 Api\Ahmed Nasr\Session 01\Demo\Talabat.MyProject.Solution\Talabat.Service\bin\Debug\net6.0\Talabat.Core.dll
+D:\ASP.NET\.net route\08 Api\Ahmed Nasr\Session 01\Demo\Talabat.MyProject.Solution\Talabat.Service\bin\Debug\net6.0\Talabat.Core.pdb
+D:\ASP.NET\.net route\08 Api\Ahmed Nasr\Session 01\Demo\Talabat.MyProject.Solution\Talabat.Service\obj\Debug\net6.0\Talabat.Service.csproj.AssemblyReference.cache
+D:\ASP.NET\.net route\08 Api\Ahmed Nasr\Session 01\Demo\Talabat.MyProject.Solution\Talabat.Service\obj\Debug\net6.0\Talabat..89B18B2E.Up2Date
+D:\.NET Projects\Talabat\Talabat.MyProject.Solution\Talabat.Service\bin\Debug\net6.0\Talabat.Service.deps.json
+D:\.NET Projects\Talabat\Talabat.MyProject.Solution\Talabat.Service\bin\Debug\net6.0\Talabat.Service.dll
+D:\.NET Projects\Talabat\Talabat.MyProject.Solution\Talabat.Service\bin\Debug\net6.0\Talabat.Service.pdb
+D:\.NET Projects\Talabat\Talabat.MyProject.Solution\Talabat.Service\bin\Debug\net6.0\Talabat.Core.dll
+D:\.NET Projects\Talabat\Talabat.MyProject.Solution\Talabat.Service\bin\Debug\net6.0\Talabat.Core.pdb
+D:\.NET Projects\Talabat\Talabat.MyProject.Solution\Talabat.Service\obj\Debug\net6.0\Talabat.Service.csproj.AssemblyReference.cache
+D:\.NET Projects\Talabat\Talabat.MyProject.Solution\Talabat.Service\obj\Debug\net6.0\Talabat.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET Projects\Talabat\Talabat.MyProject.Solution\Talabat.Service\obj\Debug\net6.0\Talabat.Service.AssemblyInfoInputs.cache
+D:\.NET Projects\Talabat\Talabat.MyProject.Solution\Talabat.Service\obj\Debug\net6.0\Talabat.Service.AssemblyInfo.cs
+D:\.NET Projects\Talabat\Talabat.MyProject.Solution\Talabat.Service\obj\Debug\net6.0\Talabat.Service.csproj.CoreCompileInputs.cache
+D:\.NET Projects\Talabat\Talabat.MyProject.Solution\Talabat.Service\obj\Debug\net6.0\Talabat.Service.sourcelink.json
+D:\.NET Projects\Talabat\Talabat.MyProject.Solution\Talabat.Service\obj\Debug\net6.0\Talabat..89B18B2E.Up2Date
+D:\.NET Projects\Talabat\Talabat.MyProject.Solution\Talabat.Service\obj\Debug\net6.0\Talabat.Service.dll
+D:\.NET Projects\Talabat\Talabat.MyProject.Solution\Talabat.Service\obj\Debug\net6.0\refint\Talabat.Service.dll
+D:\.NET Projects\Talabat\Talabat.MyProject.Solution\Talabat.Service\obj\Debug\net6.0\Talabat.Service.pdb
+D:\.NET Projects\Talabat\Talabat.MyProject.Solution\Talabat.Service\obj\Debug\net6.0\ref\Talabat.Service.dll
