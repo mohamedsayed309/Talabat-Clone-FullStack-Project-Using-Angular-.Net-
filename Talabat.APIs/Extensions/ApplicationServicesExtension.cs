@@ -21,11 +21,11 @@ namespace Talabat.APIs.Extensions
             services.AddScoped(typeof(IUnitOfWork),typeof(UnitOfWork));
            // services.AddScoped<IBasketRepository, BasketRepository>();
             services.AddScoped(typeof(IBasketRepository), typeof(BasketRepository));   
-            //builder.Services.AddScoped<IGenericRepository<Product>,GenericRepository<Product>>();
-            //builder.Services.AddScoped<IGenericRepository<ProductBrand>, GenericRepository<ProductBrand>>();
-            //builder.Services.AddScoped<IGenericRepository<ProductCategory>, GenericRepository<ProductCategory>>();
-            //instead of this lines we can use this next one line for all 
-            services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            ///builder.Services.AddScoped<IGenericRepository<Product>,GenericRepository<Product>>();
+            ///builder.Services.AddScoped<IGenericRepository<ProductBrand>, GenericRepository<ProductBrand>>();
+            ///builder.Services.AddScoped<IGenericRepository<ProductCategory>, GenericRepository<ProductCategory>>();
+            ///instead of this lines we can use this next one line for all 
+            ///services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
             services.AddAutoMapper(typeof(MappingProfile));//another way to allow dependency injection
             //builder.Services.AddAutoMapper(M => M.AddProfile(new MappingProfile()));

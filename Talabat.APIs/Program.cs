@@ -54,7 +54,7 @@ namespace Talabat.APIs
 
             builder.Services.AddApplicationServices();
 
-            builder.Services.AddIdentityServices(); //Security Method
+            builder.Services.AddIdentityServices(builder.Configuration); //Security Method
             #endregion
 
             var app = builder.Build();
@@ -100,10 +100,12 @@ namespace Talabat.APIs
 
             app.UseStaticFiles();
 
+            app.MapControllers();
+
+            app.UseAuthentication();
+
             app.UseAuthorization();
 
-
-            app.MapControllers();
 
             app.Run();
         }
