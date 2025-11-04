@@ -18,7 +18,12 @@ namespace Talabat.APIs.Helpers
             CreateMap<CustomerBasketDto, CustomerBasket>();
             CreateMap<BasketItemDto, BasketItem>();
 
-            CreateMap<AddressDto, Address>();
+            CreateMap<AddressDto,Core.Entities.Order_Aggregate.Address>();
+
+            CreateMap<Core.Entities.Identity.Address, AddressDto>();
+
+            CreateMap<AddressDto, Core.Entities.Identity.Address>();
+
 
             CreateMap<Order, OrderToReturnDto>()
                 .ForMember(d => d.DeliveryMethod, opt => opt.MapFrom(src => src.DeliveryMethod.ShortName))

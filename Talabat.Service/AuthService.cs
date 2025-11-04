@@ -28,11 +28,10 @@ namespace Talabat.Service
         {
             //Private Calims (user-defined)
 
-            var authClaims = new List<Claim>();
-            {
-                new Claim(ClaimTypes.GivenName, user.UserName);
-                new Claim(ClaimTypes.Email, user.Email);
-
+            var authClaims = new List<Claim>
+        {
+                new Claim(ClaimTypes.GivenName, user.UserName),
+                new Claim(ClaimTypes.Email, user.Email)
             };
 
             var userRoles = await userManager.GetRolesAsync(user);

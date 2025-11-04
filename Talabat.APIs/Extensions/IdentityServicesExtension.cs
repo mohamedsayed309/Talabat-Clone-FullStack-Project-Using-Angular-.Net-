@@ -6,6 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 using Talabat.Service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Text;
+using Microsoft.Extensions.Options;
 
 namespace Talabat.APIs.Extensions
 {
@@ -21,11 +22,15 @@ namespace Talabat.APIs.Extensions
 
             }).AddEntityFrameworkStores<AppIdentityDbContext>();
 
-            services.AddAuthentication(/*JwtBearerDefaults.AuthenticationScheme)*/ options =>
-            {
+            services.AddAuthentication(/*JwtBearerDefaults.AuthenticationScheme*/ options => {
+                
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
                 options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme; //schema that Authorize end-point default challnge
+
             })
+
+
+            
 
               .AddJwtBearer(options =>
               {
@@ -34,8 +39,8 @@ namespace Talabat.APIs.Extensions
                   options.TokenValidationParameters = new TokenValidationParameters()
                   {
                       ValidateAudience = true,
-                      ValidateIssuer = true,
                       ValidAudience = configuration["JWT:ValidAudience"],
+                      ValidateIssuer = true,
                       ValidIssuer = configuration["JWT:Issure"],
                       ValidateIssuerSigningKey = true,
                       IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JWT:SecretKey"])),

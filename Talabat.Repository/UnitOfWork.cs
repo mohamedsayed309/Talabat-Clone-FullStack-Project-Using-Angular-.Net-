@@ -30,7 +30,7 @@ namespace Talabat.Repository
             {
                 var repository = new GenericRepository<TEntity>(_dbContext);
 
-                _repositories.Add(key, repository) ;
+                _repositories.Add(key, repository);
             }
             return (IGenericRepository<TEntity>)_repositories[key];
         }
