@@ -1,0 +1,14 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore user-specific config
+*.user
+*.suo
+
+# Ignore Visual Studio generated files
+*.cache
+*.pdb
+
+# Ignore appsettings from bin
+Talabat.APIs/bin/
